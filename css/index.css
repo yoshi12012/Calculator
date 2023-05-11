@@ -1,0 +1,63 @@
+.outer-box{
+    width: 100%;
+    height: 70vh;
+    border: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cal{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'algerian';
+    font-weight: 100;
+}
+.inner-box{
+    width: 600px;
+    height: 400px;
+    background-color: greenyellow;
+    padding: 30px;
+    border-radius: 10px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px; */
+}
+.name input{
+    width: 315px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 0px;
+}
+.cal-btn{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 28px;
+}
+.cal-btn button{
+    padding: 18px 39px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    border:2px solid aquamarine
+}
+/* Hover means when we take our cursor on something */
+.cal-btn button:hover{
+    background-color: aquamarine;
+    border: 2px solid white;
+}
+.show-result h2{
+    font-size: 30px;
+    text-align: center;
+    color: #762e17;
+}
+h2{
+    text-align: center;
+}
+body{
+    background: linear-gradient(45deg, #417ca2, transparent);
+    height: 100vh;
+}
